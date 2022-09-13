@@ -5,3 +5,7 @@ const array = [
     [20, 33, 11, 12, 19],
     [3, 3, 4, 5, 10]
 ]
+
+for (let index = 0; index < array.length; index++) {
+    console.log(`Jogador ${index + 1}: ${array[index]}`);
+}
